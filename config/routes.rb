@@ -1,5 +1,5 @@
 SwaggerYard::Engine.routes.draw do
-   get '/swagger.json', to: 'swagger#index'
+   get '/swagger.json', to: 'swagger2#index'
    get '/doc', to: 'swagger#doc'
 
    get '/api', to: 'swagger#index'
